@@ -1,0 +1,38 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+  color: #000;
+}
+
+#button {
+  display: block;
+}
+
+#video,
+#overlay,
+#stats,
+#info {
+  position: absolute;
+}
+
+#overlay div {
+  position: absolute;
+  background: rgba(0, 255, 0, 0.2);
+  border: 1px dashed rgba(0, 255, 0, 0.6)
+}
+
+#overlay div span {
+  display: inline-block;
+  padding: 5px;
+  background: rgba(255, 255, 255, .3);
+}
+
+#stats,
+#info {
+  padding: 5px;
+  background: rgba(255, 255, 255, .3);
+}
+
+#info {
+  bottom: 0;
+}
