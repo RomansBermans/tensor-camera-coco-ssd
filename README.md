@@ -1,1 +1,0 @@
-# tensor-camera-coco-ssd
